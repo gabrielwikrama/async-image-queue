@@ -1,0 +1,13 @@
+jumlah_gambar,metode,waktu_detik,throughput_img_per_detik,speedup
+100,Sequential (1 Core),3.7497,26.67,1.0
+100,AsyncQueue + MP (2 Workers),2.0716,48.27,1.81
+100,AsyncQueue + MP (4 Workers),1.8401,54.35,2.04
+100,AsyncQueue + MP (8 Workers),2.2276,44.89,1.68
+500,Sequential (1 Core),17.9974,27.78,1.0
+500,AsyncQueue + MP (2 Workers),9.4727,52.78,1.9
+500,AsyncQueue + MP (4 Workers),8.0498,62.11,2.24
+500,AsyncQueue + MP (8 Workers),7.5938,65.84,2.37
+1000,Sequential (1 Core),53.4913,18.69,1.0
+1000,AsyncQueue + MP (2 Workers),23.1265,43.24,2.31
+1000,AsyncQueue + MP (4 Workers),15.4236,64.84,3.47
+1000,AsyncQueue + MP (8 Workers),13.0327,76.73,4.1
